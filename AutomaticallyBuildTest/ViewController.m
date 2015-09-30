@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 
+#import "SampleUtil.h"
+
 @interface ViewController ()
 
 @end
@@ -17,6 +19,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    
+    UIAlertView *alert = [[UIAlertView alloc]initWithTitle:nil message:[SampleUtil getHello] delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
+    [alert show];
 }
 
 - (void)didReceiveMemoryWarning {

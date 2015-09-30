@@ -13,7 +13,8 @@
 		0F97BD741BBAC77D00C8867B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F97BD721BBAC77D00C8867B /* Main.storyboard */; };
 		0F97BD761BBAC77D00C8867B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F97BD751BBAC77D00C8867B /* Images.xcassets */; };
 		0F97BD791BBAC77D00C8867B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F97BD771BBAC77D00C8867B /* LaunchScreen.xib */; };
-		0F97BD851BBAC77D00C8867B /* AutomaticallyBuildTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F97BD841BBAC77D00C8867B /* AutomaticallyBuildTestTests.m */; };
+		911789551BBBF1040047B6D4 /* SampleUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 911789541BBBF1040047B6D4 /* SampleUtil.m */; };
+		911789581BBBF51D0047B6D4 /* SampleUtilTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 911789571BBBF51D0047B6D4 /* SampleUtilTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +40,9 @@
 		0F97BD781BBAC77D00C8867B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		0F97BD7E1BBAC77D00C8867B /* AutomaticallyBuildTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutomaticallyBuildTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F97BD831BBAC77D00C8867B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0F97BD841BBAC77D00C8867B /* AutomaticallyBuildTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutomaticallyBuildTestTests.m; sourceTree = "<group>"; };
+		911789541BBBF1040047B6D4 /* SampleUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleUtil.m; sourceTree = "<group>"; };
+		911789561BBBF1190047B6D4 /* SampleUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleUtil.h; sourceTree = "<group>"; };
+		911789571BBBF51D0047B6D4 /* SampleUtilTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleUtilTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				0F97BD751BBAC77D00C8867B /* Images.xcassets */,
 				0F97BD771BBAC77D00C8867B /* LaunchScreen.xib */,
 				0F97BD681BBAC77D00C8867B /* Supporting Files */,
+				911789541BBBF1040047B6D4 /* SampleUtil.m */,
+				911789561BBBF1190047B6D4 /* SampleUtil.h */,
 			);
 			path = AutomaticallyBuildTest;
 			sourceTree = "<group>";
@@ -105,8 +110,8 @@
 		0F97BD811BBAC77D00C8867B /* AutomaticallyBuildTestTests */ = {
 			isa = PBXGroup;
 			children = (
-				0F97BD841BBAC77D00C8867B /* AutomaticallyBuildTestTests.m */,
 				0F97BD821BBAC77D00C8867B /* Supporting Files */,
+				911789571BBBF51D0047B6D4 /* SampleUtilTest.m */,
 			);
 			path = AutomaticallyBuildTestTests;
 			sourceTree = "<group>";
@@ -222,6 +227,7 @@
 				0F97BD711BBAC77D00C8867B /* ViewController.m in Sources */,
 				0F97BD6E1BBAC77D00C8867B /* AppDelegate.m in Sources */,
 				0F97BD6B1BBAC77D00C8867B /* main.m in Sources */,
+				911789551BBBF1040047B6D4 /* SampleUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,7 +235,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F97BD851BBAC77D00C8867B /* AutomaticallyBuildTestTests.m in Sources */,
+				911789581BBBF51D0047B6D4 /* SampleUtilTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +422,7 @@
 				0F97BD8A1BBAC77D00C8867B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0F97BD8B1BBAC77D00C8867B /* Build configuration list for PBXNativeTarget "AutomaticallyBuildTestTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +431,7 @@
 				0F97BD8D1BBAC77D00C8867B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
